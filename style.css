@@ -102,7 +102,7 @@ body{
 
 .body{
     width: 55%;
-    margin-left: 5%;
+    margin-left: 100px;
     margin-right: 0;
     padding-top: 7em;
     float: left;
@@ -133,13 +133,19 @@ img.profpic{
     height: 800px;
 }
 
-.icons img{
-    padding-left: 20px;
-    padding-top: 5px;
+.icons{
+    width: 100%;
+    display:inline-flex;
+    justify-content: space-between;
+    padding-top: 10px;
 }
 
-.post #save{
-    padding-left: 74%;
+.left-icons img{
+    padding-left: 20px;
+}
+
+
+.right-icons img{
     padding-right: 20px;
 }
 
