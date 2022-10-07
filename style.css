@@ -137,7 +137,8 @@ img.profpic{
     width: 100%;
     display:inline-flex;
     justify-content: space-between;
-    padding-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .left-icons img{
